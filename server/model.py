@@ -18,6 +18,7 @@ class LeadPac(db.Model):
     heat_system = db.Column(db.String(40))
     household_nb = db.Column(db.Integer)
     household_wage = db.Column(db.Integer)
+    eligible = db.Column(db.Boolean)
 
 
 if __name__ == "__main__":
